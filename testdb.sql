@@ -9,6 +9,9 @@ CREATE TABLE IF NOT EXISTS `func` (
   PRIMARY KEY (`id`)
   ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
+INSERT INTO func (id, name_func, sexo, password) values ('','Bruno','Masculino','123456')
+
+
   
 CREATE TABLE IF NOT EXISTS `servico` (
   `id` int(8) NOT NULL AUTO_INCREMENT,
