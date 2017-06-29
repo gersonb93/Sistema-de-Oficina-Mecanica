@@ -53,9 +53,7 @@ if (isset($_POST['signups'])) {
     //header("Location: index.php")
 }
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////
+
 
 
 
@@ -175,9 +173,9 @@ if (isset($_POST['signups'])) {
                      <td><a><?php echo $lista['name_cli']; ?></a> </td>
                      <td><a><?php echo $lista['vl_serv']; ?></a></td>
                      <td><a><?php echo $lista['tipo_serv']; ?></a></td> 
-					 <td><a><?php echo $lista['obs']; ?></a></td> 
+	             <td><a><?php echo $lista['obs']; ?></a></td> 
                      <td><a><?php echo $lista['name_atendente']; ?></a></td>
-    <td><span class="label label-primary"><?php echo $lista['status']; ?></span></td>
+                     <td><span class="label label-primary"><?php echo $lista['status']; ?></span></td>
                      <td class="text-center">
                         
 						<!--<form action='mudar.php' method='post'>
@@ -185,15 +183,15 @@ if (isset($_POST['signups'])) {
                           <button title="Mudar status" type='submit'> <span class="glyphicon glyphicon-thumbs-up"></span></button>
 						</form> -->
 						
-						<a href="mudar.php?id=<?php echo $lista['id']; ?>" > <span class="glyphicon glyphicon-thumbs-up"></span></a>
-						<p />
-						<a href="alterar.php?id=<?php echo $lista['id']; ?>" data-toggle="modal" name="editarId" id="editarId"  title="Editar"><span class="glyphicon glyphicon-pencil text-warning"></span></a>
+		<a href="mudar.php?id=<?php echo $lista['id']; ?>" > <span class="glyphicon glyphicon-thumbs-up"></span></a>
+						
+		<a href="alterar.php?id=<?php echo $lista['id']; ?>" data-toggle="modal" name="editarId" id="editarId"  title="Editar"><span class="glyphicon glyphicon-pencil text-warning"></span></a>
                        
-						<a href="deletar.php?id=<?php echo $lista['id']; ?>" > <span class="glyphicon glyphicon-trash text-danger"></span></a>
+		<a href="deletar.php?id=<?php echo $lista['id']; ?>" > <span class="glyphicon glyphicon-trash text-danger"></span></a>
                      </td>
 					 
                   </tr>
-				  <?php endforeach; ?>
+	 <?php endforeach; ?>
 				  
 				  
                </tbody>
@@ -285,18 +283,11 @@ if (isset($_POST['signups'])) {
          </div>
       </div>
 	  
-	  <!-------------------------------------------------------------------------------------------------------------------------------------------------------
-	  ---------------------------------------------------------------------------------------------------------------------------------------------------------
-	  ---------------------------------------------------------------------------------------------------------------------------------------------------------
-	    ---->
+	  
 		
 		
       
 		
-		<!----------------------------------------------------------------------------------------------------------------------------------------------------
-		-------------------------------------------------------------------------------------------------------------------------------------------------------
-		------------------------------------------------------------------------------------------------------------------------------------------------------
-		-->
 		
 		
 	 
